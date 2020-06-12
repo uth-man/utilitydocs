@@ -1,0 +1,438 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar .collapse .nav-link {
+  color: #17a2b8;
+}
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar {
+  background-color: #212f3c;
+}
+.home .landing-content {
+  padding-top: 40vh;
+  text-align: center;
+}
+.home .landing-content .row h1 {
+  font-family: "Bangers", cursive;
+  font-size: 20vh;
+  color: rgb(168, 182, 197);
+  text-shadow: black -2px 2px 10px;
+}
+.home {
+  background-image: url("./assets/background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  opacity: 0.8;
+}
+
+.home-page .row div h1 {
+  font-family: "Bangers", cursive;
+  font-size: 8vw;
+  color: #212f3c;
+  text-shadow: -1vw 0.2vw 15px gray;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-page .row div h1 {
+    font-size: 8vh;
+  }
+}
+
+.home-page .row div p {
+  font-weight: 400;
+  color: lightcoral;
+  letter-spacing: 0.2vw;
+  font-size: 2vw;
+}
+@media only screen and (max-width: 1024px) {
+  .home-page .row div p {
+    font-size: 2vh;
+  }
+}
+.patch2 {
+  background-color: #212f3c;
+}
+.patch2 h1 {
+  font-family: "Bangers", cursive;
+  font-size: 6vw;
+}
+.patch2 .row p {
+  font-size: 2vw;
+}
+.patch2 .row h1 {
+  padding: 4vw;
+}
+/* .patch2 .row .contactUs {
+  margin-bottom: 5vw;
+}
+.patch2 .row .aboutUs {
+  margin-bottom: 5vw;
+} */
+@media only screen and (max-width: 1024px) {
+  .patch2 .row h1 {
+    font-size: 8vw;
+  }
+
+  .patch2 .contact-icons {
+    font-size: 2vh !important;
+  }
+  .patch2 .row p {
+    font-size: 2vh;
+  }
+}
+.patch2 .contact-icons {
+  color: lightslategray;
+  display: flex;
+  font-size: 2.5vw;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+}
+.patch2 .contact-icons i:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
+.patch2-5 h1 {
+  font-family: "Bangers", cursive;
+  font-size: 5vw;
+  text-shadow: -0.5vw 0.2vw 10px #5bc0de93;
+}
+
+.card .card-body {
+  border: 1px solid #5bc0de;
+}
+.card {
+  font-size: 1.3vw;
+}
+@media only screen and (max-width: 1024px) {
+  .card {
+    font-size: 2vh;
+  }
+}
+.modal .modal-dialog .modal-header {
+  background-color: #212f3c;
+  color: whitesmoke;
+}
+.modal .modal-dialog .modal-body textarea {
+  box-shadow: none;
+  border: none;
+  border-left: 1px solid #212f3c;
+  border-right: 1px solid #212f3c;
+}
+.modal .modal-dialog .modal-body form input {
+  border: none;
+  border-bottom: 2px solid #212f3c;
+  border-radius: 0%;
+  box-shadow: none;
+}
+
+/* =============== User Registeration Page =============== */
+.registerPage {
+  margin-top: 15vh;
+}
+.registerPage .icon {
+  font-size: 15vw;
+}
+@media only screen and (max-width: 1024px) {
+  .registerPage .icon {
+    font-size: 15vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .registerPage form button {
+    width: 100%;
+  }
+  .loginPage form button {
+    width: 100%;
+  }
+}
+.registerPage form {
+  width: 50%;
+  margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .registerPage form {
+    width: 80%;
+    margin: auto;
+  }
+}
+.registerPage form input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #212f3c;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.registerPage form input:focus {
+  border-bottom: 2px solid #212f3c;
+}
+.registerPage form button {
+  margin-top: 2vw;
+}
+/* =============== User Login Page =============== */
+.loginPage {
+  margin-top: 15vh;
+}
+
+.loginPage .icon {
+  font-size: 15vw;
+}
+@media only screen and (max-width: 1024px) {
+  .loginPage .icon {
+    font-size: 15vh;
+  }
+}
+.loginPage form {
+  width: 50%;
+  margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .loginPage form {
+    width: 80%;
+    margin: auto;
+  }
+}
+.loginPage form input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #212f3c;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.loginPage form input:focus {
+  border-bottom: 2px solid #212f3c;
+}
+.loginPage form button {
+  margin-top: 2vw;
+}
+.loginPage form .alert {
+  margin: auto;
+  padding: 1vw;
+}
+.loginPage form .alert span {
+  font-size: 1.5vw;
+}
+@media only screen and (max-width: 1024px) {
+  .loginPage form .alert span {
+    font-size: 2.5vw !important;
+    margin: auto;
+  }
+  .loginPage form .alert {
+    width: 85%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+/*====================== Dashboard ===================  */
+
+.dashboardPage form input {
+  color: rgb(0, 92, 0);
+  font-size: 2.5vh;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #212f3c;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.dashboardPage form input:focus {
+  border-bottom: 2px solid #212f3c;
+}
+
+.dashboardPage form textarea {
+  border: 1px solid #212f3c;
+  box-shadow: none !important ;
+  color: rgb(0, 92, 0) !important;
+  font-size: 2vh;
+}
+.dashboardPage form textarea:focus {
+  border: 1px solid #212f3c;
+}
+.dashboardPage form input[type="date"] {
+  font-size: 1.7vh;
+}
+.dashboardPage .academic-data .form-box .row .add-icon {
+  font-size: 4vw;
+  text-shadow: -1px 1px 10px gray;
+  color: #212f3c;
+  cursor: pointer;
+}
+.dashboardPage .info-box {
+  background-color: #ecc28780;
+  padding: 2vw;
+  border: 0.2vw solid #f0ad4e;
+  border-radius: 20px;
+}
+.dashboardPage .info-box h1 {
+  text-align: center;
+  padding-top: 0vw;
+  padding-bottom: 2vw;
+}
+.dashboardPage .info-box .instructions ul li {
+  padding-top: 2vw;
+}
+/* ======================= Templates ==================== */
+.templates {
+  /* background-color: #5bc0de; */
+}
+
+.templates img {
+  width: 100%;
+  box-shadow: -0px 0px 20px gray;
+}
+.templates img:hover {
+  box-shadow: 0px 0px 5px gray;
+}
+
+/* ======================= Utility template ===================== */
+
+.utility-template .template-body .columns {
+  margin: 0vw;
+  padding: 0vw;
+}
+
+.utility-template .left-col {
+  width: 32%;
+}
+
+.utility-template .right-col {
+  width: 68%;
+
+  padding: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  border-left: 0.2vw solid #808000;
+}
+
+.utility-template .template-body .right-col h4 {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+}
+.utility-template .template-body .right-col h6 {
+  padding-top: 1vw;
+}
+.utility-template .template-body .right-col .userExperience .companyDetails {
+  text-transform: uppercase;
+}
+.utility-template .left-col .personal,
+.education,
+.skills {
+  border-bottom: 0.2vw solid #808000;
+}
+
+.utility-template .left-col .icons {
+  color: whitesmoke;
+  background-color: #212f3c;
+  border-radius: 100%;
+  padding: 0.6vw;
+  margin-left: 0vw;
+  font-size: 1vw;
+}
+.education ul li {
+  text-transform: uppercase;
+}
+.utility-template .right-col .personal {
+  padding-top: 1vw;
+}
+.utility-template .left-col .personal {
+  padding-top: 2vw;
+}
+.utility-template .left-col .personal .person-address {
+  word-break: normal;
+}
+.utility-template .left-col .personal,
+.education,
+.skills,
+.hobbies {
+  margin: 1vw;
+  margin-left: 5vw;
+  margin-right: 2vw;
+  padding-bottom: 2vw;
+}
+.utility-template .template-body .left-col h4 {
+  color: black;
+  font-weight: 700;
+}
+
+.utility-template .left-col ul {
+  padding: 0;
+  margin: 0%;
+  list-style: none;
+}
+.utility-template .left-col .personal ul li {
+  padding-bottom: 1vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  word-break: break-all;
+}
+.utility-template .template-body {
+  width: 80%;
+}
+.utility-template .template-body .row {
+  padding-bottom: 4vw;
+  color: gray;
+}
+.utility-template .template-body {
+  background-color: whitesmoke;
+}
+.utility-template .template-body .top {
+  background-color: #212f3c;
+}
+.utility-template .top h1 {
+  color: #f7f7a291;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+  word-break: break-all;
+  font-size: 4vw;
+  font-weight: 350;
+  padding: 5vw;
+}
+@media only screen and (max-width: 768px) {
+  .utility-template .template-body {
+    width: 90%;
+  }
+  .utility-template .left-col {
+    width: 30%;
+  }
+  .utility-template .right-col {
+    width: 70%;
+  }
+  .utility-template .template-body .left-col {
+    padding-left: 2vw;
+    font-size: 1.5vw;
+  }
+  .utility-template .template-body .left-col h4 {
+    font-size: 3vw;
+  }
+  .utility-template .template-body .right-col p {
+    font-size: 2vw;
+  }
+  .utility-template .template-body .right-col h4 {
+    font-size: 3vw;
+  }
+
+  .utility-template .template-body .right-col h6 {
+    font-size: 2vw;
+    padding-top: 0%;
+  }
+}
